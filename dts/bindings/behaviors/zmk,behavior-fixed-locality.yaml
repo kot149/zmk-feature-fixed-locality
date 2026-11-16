@@ -1,0 +1,3 @@
+description: Invoke a behavior with a fixed locality
+compatible: "zmk,behavior-fixed-locality"
+include: [zero_param.yaml, fixed-locality-base.yaml]

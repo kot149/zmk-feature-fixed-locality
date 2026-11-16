@@ -1,0 +1,9 @@
+properties:
+  locality:
+    type: int
+    required: true
+    description: Fixed execution locality or peripheral source ID
+  bindings:
+    type: phandles
+    required: true
+    description: Single behavior whose arguments are forwarded unchanged

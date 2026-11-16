@@ -1,0 +1,3 @@
+description: Invoke a two-argument behavior with a fixed locality
+compatible: "zmk,behavior-fixed-locality-two-param"
+include: [two_param.yaml, fixed-locality-base.yaml]

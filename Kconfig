@@ -1,0 +1,8 @@
+config ZMK_BEHAVIOR_FIXED_LOCALITY
+    bool "Fixed locality behavior"
+    default y
+    depends on DT_HAS_ZMK_BEHAVIOR_FIXED_LOCALITY_ENABLED || \
+               DT_HAS_ZMK_BEHAVIOR_FIXED_LOCALITY_ONE_PARAM_ENABLED || \
+               DT_HAS_ZMK_BEHAVIOR_FIXED_LOCALITY_TWO_PARAM_ENABLED
+    help
+      Forward behavior arguments and key events to a locality fixed in devicetree.
